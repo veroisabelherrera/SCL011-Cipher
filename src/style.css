@@ -1,1 +1,202 @@
-/* Acá va tu código */
+body{
+    background-color: aqua;
+    font-family: 'Arial', sans-serif;
+}
+
+/*pantalla bienvenida*/
+
+#homescreen{
+    margin-top: 100px;
+}
+
+#cifrar1{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: darkcyan;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#cifrar1:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+#descifrar1{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: darkcyan;
+    border: 0px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#descifrar1:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+
+
+/*pantalla para cifrado*/
+
+#cifradoscreen{
+    display: none;
+    margin-top: 40px;
+}
+
+#botoncifrar{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: lightcoral;
+    border: 0px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#botoncifrar:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+#texto1{
+    width: 40%;
+    height: 20%;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+#offset1{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+#resultadocifrado{
+    width: 30%;
+    height: 20%;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+
+#clean1{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: darkcyan;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#clean1:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+#volver1{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: darkcyan;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#volver1:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+
+
+
+/*pantalla para descifrado*/
+
+#descifradoscreen{
+    display: none;
+}
+
+#botondescifrar{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: lightcoral;
+    border: 0px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#botondescifrar:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+
+#texto2{
+    width: 40%;
+    height: 20%;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+#offset2{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+#resultadodescifrado{
+    width: 30%;
+    height: 20%;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+
+#clean2{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: darkcyan;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#clean2:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+
+#volver2{
+    padding: 8px 16px;
+    font-family: 'Arial';
+    font-size: 14px;
+    background-color: darkcyan;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#volver2:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+

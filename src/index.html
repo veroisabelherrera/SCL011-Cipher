@@ -7,8 +7,59 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+      
+
+<!--Pantalla de bienvenida-->
+
+    <h1>ChatTraductor</h1>
+  <p>La nueva herramienta para transformar tus mensajes a codigos y hacerlos mas seguros</p>
+  <br>
+  <h4>Elige entre codificar tu mensaje, o descubrir el mensaje</h4>
+  <button id= "cifrar1">Codificar mensaje</button>
+  <button id="descifrar1">Descubrir mensaje</button>
+
+</div>
+
+
+
+<!--Pantalla para cifrado de mensaje-->
+
+<div id="cifradoscreen" align="center">
+  <h3>Para transformar tu mensaje en codigo, <br> solo debes escribir tu texto y decidir el número de desplazamiento <br> con el cual quieres moverte a través del abecedario</h3>
+  <textarea id="texto1" placeholder="escribe tu mensaje aquí"></textarea>
+  <h5>Escribe el número de caracteres a desplazar</h5>
+  <input id="offset1" type="number" required>
+<br>
+  <button id="botoncifrar">Cifrar mensaje</button>
+<br>
+<div id="msj-encode" class="msj-check">
+  <p id="msj-cifrado-check"></p>
+</div>
+<br>    
+  <button id="clean1">Limpiar</button>
+  <button id="volver1">Volver</button>
+</div>
+
+
+<!--Pantalla para descifrado de mensaje-->
+
+<div id="descifradoscreen" align="center">
+  <h3>Para descifrar tu mensaje, <br> escribe el mensaje, ingresa el número de desplazamiento <br> y haz click en el boton 'Descubrir'</h3>
+  <textarea id="texto2" placeholder="escribe tu mensaje aquí"></textarea>
+  <h5>Escribe el número de caracteres a desplazar</h5>
+  <input id="offset2" type="number" required>
+<br>
+  <button id="botondescifrar">Descifrar mensaje</button>
+<br>
+<div id="msj-decode" class="msj-check">
+  <p id="msj-descifrado-check"></p>
+</div>       
+<br>
+  <button id="clean2">Limpiar</button>
+  <button id="volver2">Volver</button>
+</div>
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
