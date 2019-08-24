@@ -31,7 +31,6 @@
         location.reload(true);
        });    
     
-       
     
     //Acción boton reset
     

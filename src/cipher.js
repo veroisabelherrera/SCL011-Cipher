@@ -27,6 +27,7 @@ window.cipher = {
 },
     
 
+
   decode: (string, offset) => {
     //mensaje recibido
     let msjDescifrado = "";
