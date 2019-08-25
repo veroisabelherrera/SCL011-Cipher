@@ -44,4 +44,6 @@ Y si eres quien lo recibe, asegúrate de que tu emisor te haga llegar el número
 [Chat Traductor](https://veroisabelherrera.github.io/SCL011-Cipher/src/index.html).
 
 
+## Recursos Adicionales de Planificación 
 
+[Planificación de Proyecto](https://trello.com/b/4zOEi831/vcifrado-cesar).
